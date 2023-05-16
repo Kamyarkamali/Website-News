@@ -1,0 +1,36 @@
+.containertext{
+    max-width: 2000px;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 2rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .containertext{
+        font-size: 20px;
+        padding: 1rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+.containertext{
+    width: 855px;
+}
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+    .containertext{
+        width: 1430px;
+}
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+    .containertext{
+        width: 1320px;
+    }
+}

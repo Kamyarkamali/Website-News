@@ -1,0 +1,55 @@
+
+.btn button{
+    position: fixed;
+    top: 41rem;
+    right: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .btn button{
+        width: 10%;
+        position: absolute;
+        top: 439px;
+        right: 0;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .btn button{
+        width: 4%;
+        position: absolute;
+        top:870px;
+        right: 0;
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+    .btn button{
+        width: 3%;
+        position: absolute;
+        top:870px;
+        right: 0;
+        font-size: 34px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    .btn button{
+        width: 4%;
+        position: absolute;
+        top:610px;
+        right: 0;
+        font-size: 34px;
+        text-align: center;
+    }
+}

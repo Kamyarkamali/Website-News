@@ -1,0 +1,45 @@
+.containercounter{
+    max-width: 1360px;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    padding: 4rem;
+    font-size: 30px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.count .counts{
+    display: flex;
+    gap: 20px;
+    color: #eee;
+    border-bottom: 3px solid;
+    align-items: center;
+}
+
+.newscount{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .containercounter{
+        width: 800px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .containercounter{
+        width: 1360px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    .containercounter{
+        width: 1254px;
+    }
+}

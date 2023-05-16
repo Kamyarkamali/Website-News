@@ -1,0 +1,13 @@
+.btns{
+    position: fixed;
+    top: 640px;
+}
+
+.btns button{
+    border: none;
+    background-color: rgb(227, 140, 109);
+    color: blue;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
